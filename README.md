@@ -90,8 +90,8 @@ Since this was created in just less than a day there are bound to be some trade 
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/yourusername/floor-plan-management-system.git](https://github.com/yourusername/floor-plan-management-system.git)
-cd floor-plan-management-system
+git clone https://github.com/PreyankM/FloorPlanManagementSystem.git
+cd FloorPlanManagementSystem
 ```
 
 1. **Build and Run the Backend:**
