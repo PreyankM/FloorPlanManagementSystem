@@ -156,3 +156,11 @@ Follow the prompts to interact with the Floor Plan Management System.
 - As admin user reading version 3(which was never added)
 
 ![Untitled](images/Untitled%2013.png)
+
+- User reading version 2
+
+![Untitled](images/Untitled%2014.png)
+
+- Admin updating version 2(with initial and final view of the floor plan v2)
+
+![Untitled](images/Untitled%2015.png)
