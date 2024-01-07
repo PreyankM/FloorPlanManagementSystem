@@ -130,3 +130,29 @@ python floor_plan_ui.py
 Follow the prompts to interact with the Floor Plan Management System.
 
 ![Untitled](images/Untitled%207.png)
+
+## Sample Output ScreenShots
+
+- As admin user inputting version 1
+
+![Untitled](images/Untitled%208.png)
+
+- As admin user inputting version 2
+
+![Untitled](images/Untitled%209.png)
+
+- As user123 user inputting version 3
+
+![Untitled](images/Untitled%2010.png)
+
+- As admin user reading version 1
+
+![Untitled](images/Untitled%2011.png)
+
+- As admin user reading version 2
+
+![Untitled](images/Untitled%2012.png)
+
+- As admin user reading version 3(which was never added)
+
+![Untitled](images/Untitled%2013.png)
