@@ -157,10 +157,14 @@ Follow the prompts to interact with the Floor Plan Management System.
 
 ![Untitled](images/Untitled%2013.png)
 
-- User reading version 2
+- User reading version 1 and 2
 
-![Untitled](images/Untitled%2014.png)
+![Untitled](images/Untitled14.png)
 
 - Admin updating version 2(with initial and final view of the floor plan v2)
 
-![Untitled](images/Untitled%2015.png)
+![Untitled](images/Untitled15.png)
+
+- User unable to update floor plan
+
+![Untitled](images/Untitled16.png)
