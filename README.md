@@ -15,7 +15,7 @@ For the backend, the system leverages a powerful tech stack to ensure optimal pe
 - **Java and Spring Boot**: Employed for backend development, providing a robust and scalable foundation.
 - **H2 Database**: Act as a SQL database wrapper using Spring Boot, facilitating efficient storage.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled.png)
+![Untitled](images/Untitled.png)
 
 On the frontend, a seamless communication process is facilitated through:
 
@@ -27,9 +27,9 @@ On the frontend, a seamless communication process is facilitated through:
 
 - **Static Authentication Setup**: The system employs a robust static authentication mechanism to control access to floor plan modifications. Specifically, only admin users are granted the authority to make changes, enhancing security and safeguarding the integrity of the floor plans.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
-                                          *Ensuring only admin can update the table*
+                                          Ensuring only admin can update the table
 
 ### Cost Estimation
 
@@ -40,9 +40,9 @@ On the frontend, a seamless communication process is facilitated through:
 
 - **Fault Tolerance**: Both backend and frontend are designed with high fault tolerance. Strict type checking in the UI and backend minimizes the risk of undesired input causing issues.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
-       *The table defined using Entity which defines the datatypes of all columns being stored*
+                  The table defined using Entity which defines the datatypes of all columns being stored
 
 - **Database Consistency**: In the event of a system failure, the database remains constant. During system startup, the database can be seamlessly utilized, minimizing downtime to the system's rebooting time.
 
@@ -50,9 +50,9 @@ On the frontend, a seamless communication process is facilitated through:
 
 - **Abstraction and Encapsulation**: Robust OOPS principles are followed, with extensive abstraction in the backend. Multiple models are created to abstract and encapsulate data storage, enhancing system organization.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
-                                                   *Project structure of the backend*
+                                                   Project structure of the backend
 
 - **Polymorphism**: Implemented to ensure flexibility and adaptability within the codebase.
 - **Modularization**: The code is highly modularized, enabling easy addition of new functionality. Each feature is organized into its own class, simplifying debugging and maintenance.
@@ -68,15 +68,15 @@ Since this was created in just less than a day there are bound to be some trade 
 
 - **Try-Catch Blocks**: Implemented at critical operations to handle potential issues.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
-                         *Handling parsing exceptions while serialisation and deserialisation*
+                         Handling parsing exceptions while serialisation and deserialisation
 
 - **Comprehensive Error Handling**: Covers parsing and various aspects to ensure robust application performance.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%205.png)
+![Untitled](images/Untitled%205.png)
 
-                                              *Handling backend responses in CLI*
+                                              Handling backend responses in CLI
 
 ## ****Backend Installation****
 
@@ -104,7 +104,7 @@ mvn spring-boot:run
 
 The backend will run on **`http://localhost:8080`**.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%206.png)
+![Untitled](images/Untitled%206.png)
 
 ## ****Frontend Installation****
 
@@ -129,4 +129,4 @@ python floor_plan_ui.py
 
 Follow the prompts to interact with the Floor Plan Management System.
 
-![Untitled](Floor%20Plan%20Management%20System%20a26cf360cc084370a873091891b7d435/Untitled%207.png)
+![Untitled](images/Untitled%207.png)
