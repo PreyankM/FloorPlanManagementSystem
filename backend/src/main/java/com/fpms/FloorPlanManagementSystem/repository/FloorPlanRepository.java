@@ -8,5 +8,5 @@ import java.util.Optional;
 
 @Repository
 public interface FloorPlanRepository extends JpaRepository<FloorPlanEntity, Long> {
-    Optional<FloorPlanEntity> findByUsernameAndVersion(String username, String version);
+    Optional<FloorPlanEntity> findByVersion(String version);
 }

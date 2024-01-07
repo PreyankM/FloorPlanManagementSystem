@@ -32,7 +32,7 @@ public class FloorPlanService {
 
     public List<FloorDTO> getFloorPlans(String username, String version) {
         Optional<FloorPlanEntity> floorPlanEntityOptional =
-                floorPlanRepository.findByUsernameAndVersion(username, version);
+                floorPlanRepository.findByVersion(version);
 
         return floorPlanEntityOptional.map(entity -> mapToDTO(entity.getFloorPlanData()))
                 .orElse(null);
